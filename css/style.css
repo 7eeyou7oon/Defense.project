@@ -215,7 +215,9 @@ h1,h2,h3,h4,h5,h6 {
 /*Intro end*/
 
 .section {
-    margin-bottom: 100px;
+    width: 100%;
+    height: 100vh; 
+    margin: 0 auto;
 }
 
 .section.process {
@@ -279,6 +281,7 @@ a.geo__link:hover {
     font-size: 30px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .block__title.text-white {
@@ -292,6 +295,7 @@ a.geo__link:hover {
     letter-spacing: 0.15em;
     color: #000;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .block__link:hover {
@@ -381,6 +385,7 @@ a.geo__link:hover {
     letter-spacing: 0.23em;
     color: #000;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .services__text {
